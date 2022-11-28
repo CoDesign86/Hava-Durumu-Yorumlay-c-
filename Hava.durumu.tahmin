@@ -1,0 +1,7 @@
+#çok basit bir hava durumu yorumlama programı yapalım.
+
+istanbul = int(input("istanbul\'da hava kaç derece ? "))
+if   istanbul <= 15:
+    print(istanbul, "derece, bu hava soğuk gerçekten :(")
+else:
+    print(istanbul , "derece, bu hava gayet güzel :)")
